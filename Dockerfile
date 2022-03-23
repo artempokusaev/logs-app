@@ -1,4 +1,4 @@
-FROM node # с какого image хотим сделать свой
+FROM node
 
 WORKDIR /app # контекст проекта
 
