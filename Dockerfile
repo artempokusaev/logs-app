@@ -1,11 +1,11 @@
 FROM node
 
-WORKDIR /app # контекст проекта
+WORKDIR /app
 
-COPY . . # копируем из локального проекта
+COPY . .
 
-EXPOSE 3000 # какой порт запускается
+EXPOSE 3000
 
-RUN npm install # запускаем команду когда собирается образ
+RUN npm install
 
-CMD ["node", "app.js"] # запускаем команду, когда запускается образ
+CMD ["node", "app.js"]
